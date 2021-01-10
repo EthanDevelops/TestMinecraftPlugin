@@ -6,9 +6,11 @@ public class TestMinecraftPlugin extends JavaPlugin {
     @Override
     public void onEnable() {
         getLogger().info("onEnable was called!");
+        // getLogger().warning("This is a test error that is called when onEnable was called.");
     }
     @Override
     public void onDisable() {
         getLogger().info("onDisable was called!");
+        // getLogger().warning("This is a test error that is called when onDisable was called.");
     }
 }
